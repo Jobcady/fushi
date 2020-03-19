@@ -5,7 +5,7 @@
 #include <math.h>
 int main()
 {
-    int n, k, i;//注释
+    int n, k, i;
     int m = 0;
 
     for (n = 101; n <= 200; n += 2)
