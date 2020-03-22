@@ -1,12 +1,12 @@
 /* 编写程序：输入20个有符号整数，统计正整数、零和负整数得个数 */
 #include <stdio.h>
-#define num 3
+#define num 20
 int main()
 {
     int n, i, f, z, l;
-    z = 0;
-    f = 0;
-    l = 0;
+    z = 0; //正整数
+    f = 0; //负整数
+    l = 0; //零
 
     for (i = 1; i <= num; i++)
     {
