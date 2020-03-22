@@ -1,5 +1,6 @@
 /* 编写程序：输入20个有符号整数，统计正整数、零和负整数得个数 */
 #include <stdio.h>
+#define num 3
 int main()
 {
     int n, i, f, z, l;
@@ -7,7 +8,7 @@ int main()
     f = 0;
     l = 0;
 
-    for (i = 1; i <= 20; i++)
+    for (i = 1; i <= num; i++)
     {
         printf("请输入第%d个数：", i);
         scanf("%ld", &n);
