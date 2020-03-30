@@ -24,8 +24,8 @@ int main()
     show(a, m, n);
     for (i = 0; i < m; i++)
         printf("第%2d行的最大值为：%2d，最小值为：%2d\n", i + 1, max(a[i], n), min(a[i], n));
-
     printf("\n");
+
     return 0;
 }
 
