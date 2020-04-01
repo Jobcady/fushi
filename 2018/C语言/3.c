@@ -1,6 +1,7 @@
 /* 编写程序：计算 sin x 的值 */
 #include <stdio.h>
 #include <math.h>
+
 /*int main()
 {
     double sinx, x;
