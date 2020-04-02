@@ -8,6 +8,7 @@ void fun(char s[], char c[]);
 
 int main()
 {
+    /* bug°æ */
     char str[80], c[80];
 
     printf("input string:");
