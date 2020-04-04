@@ -94,6 +94,7 @@ void QuickSort(float R[], int low, int high)
     int i = low;
     int j = high;
     float temp;
+
     if (low < high)
     {
         temp = R[low];
