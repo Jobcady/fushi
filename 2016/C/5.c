@@ -88,6 +88,7 @@ void max(struct student stud[])
         printf("\n");
     }
 }
+
 void QuickSort(float R[], int low, int high)
 {
     int i = low;
