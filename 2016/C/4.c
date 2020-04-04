@@ -1,5 +1,6 @@
 /* 编写函数 int find(int *p, int n, int a),其功能为在指针p所指的数组中查找整型数a，
-如果a在数组中，该函数返回a在数组中的位置值，否则返回-1。*/
+ * 如果a在数组中，该函数返回a在数组中的位置值，否则返回-1。
+ */
 #include <stdio.h>
 
 int find(int *p, int n, int x);
