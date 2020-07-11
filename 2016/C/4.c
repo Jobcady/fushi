@@ -3,7 +3,7 @@
  */
 #include <stdio.h>
 
-int find(int *p, int n, int x);
+int find(int *p, int n, int x)£»
 
 int main()
 {
